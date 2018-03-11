@@ -23,5 +23,7 @@ public class MyCameraController : MonoBehaviour
     {
         //Unityちゃんの位置に合わせてカメラの位置を移動
         this.transform.position = new Vector3(0, this.transform.position.y, this.unitychan.transform.position.z - difference);
+        //this.transform.position = new Vector3(0,9.9f, this.unitychan.transform.position.z - difference);
+        //this.transform.rotation = Quaternion.Euler(90,0,0);
     }
 }
